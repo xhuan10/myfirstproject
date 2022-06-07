@@ -7,19 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
 </head>
 
 <body>
     <nav>
-        <div class="flex">
+        <div class="text-center">
             <a href="./index.html">Home</a>
             <a class="ml-10" href="./stories.html">Stories</a>
             <a class="ml-10" href="./contact.html">Contact</a>
         </div>
     </nav>
-    <div>
+    <div class="text-center">
         <h1>Contact Page</h1>
     </div>
+
+    <main class="container">
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+            </select>
+
+            <label for="how">How did you hear about me?</label>
+            <input type="radio" id="website" name="how" checked> Website
+            <input type="radio" id="facebook" name="how"> Facebook
+            <br>
+
+            <label for="comment">Comments</label>
+            <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </main>
 
 
     <footer class="p">

@@ -3,3 +3,8 @@
     height: 150px;
     border: 1px solid #f0f0f0;
 }
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
